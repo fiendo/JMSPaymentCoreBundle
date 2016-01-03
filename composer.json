@@ -1,5 +1,5 @@
 {
-    "name": "jms/payment-core-bundle",
+    "name": "fiendo/payment-core-bundle",
     "type": "symfony-bundle",
     "description": "This bundle is providing the foundation for various payment plugins.",
     "keywords": ["payment"],
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle": "~2.0",
+        "symfony/framework-bundle": ">=2.0",
         "ext-mcrypt": "*"
     },
     "require-dev": {
